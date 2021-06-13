@@ -62,9 +62,9 @@ author:
     - label: "Weibo"
       icon: "fas fa-fw fa-link"
       url: "https://weibo.com/mrwuuuuu"
-    - label: #"Email"
-      icon: # "fab fa-fw fa-envelope-square"
-      url: #"yilong8@ualberta.ca"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/yilongwu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ALWYNWU"
@@ -74,15 +74,15 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://twitter.com/"
+      url: "www.linkedin.com/in/yilongwu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ALWYNWU"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: #"Instagram"
+      icon: #"fab fa-fw fa-instagram"
+      url: #"https://instagram.com/"
 
 defaults:
   # _posts
