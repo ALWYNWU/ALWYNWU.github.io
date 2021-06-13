@@ -67,7 +67,7 @@ public class Test{
 
 Set break point and single-step debugging
 
-![](2021_06_11/01.png)
+![](/assets/images/first.png)
 
 <img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182205184.png" alt="image-20210611182205184" style="zoom:71%;" />
 
