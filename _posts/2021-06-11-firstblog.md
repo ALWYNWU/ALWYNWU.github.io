@@ -28,7 +28,7 @@ public class Animal{
   }
 }
 ```
-Creat parent class Animal. Creat static member variables st1,st2 and temp to show the calling order.
+>Creat parent class Animal. Creat static member variables st1,st2 and temp to show the calling order.
 {: .notice--info}
 
 ```java
