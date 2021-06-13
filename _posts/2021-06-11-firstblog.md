@@ -1,5 +1,6 @@
 ---
 title: Initialization order of inheritance
+classes: wide
 categories:
   - Blog
 ---
