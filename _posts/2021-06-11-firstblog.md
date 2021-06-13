@@ -19,12 +19,10 @@ public class Animal{
     
   static{
     System.out.println("Parent class static code block");
-  }
-  
+  }  
   {
     System.out.println("Parent class constructing code block");
   }
-  
   public Animal(){
     System.out.println("Parent class default constructor");
   }
@@ -42,11 +40,9 @@ public class Cat extends Animal{
   static{
     System.out.println("Subclass static code block");
   }
-  
   {
     System.out.println("Subclass constructing code block");
   }
-  
   public Cat(){
     System.out.println("Subclass default constructor");
   }
@@ -103,18 +99,3 @@ Set break point and single-step debugging
 By single-step debugging with breakpoint, when the inheritance conditions are satisfied, the initialization order of subclasses is: first load parent class's static members, then subclass's static members, then parent class's constructor, finally is subclass's constructor. When loading static members, the loading only according to the writing order of the members, and the access modifier doesn't affect the loading order of the members.
 
 If the constructor if subclass has parameters, by default, still call the parent class's unparameteric constructor, so the parent's unparameteric constructor is very important and it will affect the process of instantiating subclass objects. If you wish to call the specified constructor of the parent class, you can call it with the super keyword, but `super()` must be placed on the first lin of the valid code of the constructor.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
