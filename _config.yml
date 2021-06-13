@@ -63,7 +63,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://weibo.com/mrwuuuuu"
     - label: "Email"
-      icon: "fab fa-fw fa-email"
+      icon: "fab fa-fw fa-envelope-square"
       url: "yilong8@ualberta.ca"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
