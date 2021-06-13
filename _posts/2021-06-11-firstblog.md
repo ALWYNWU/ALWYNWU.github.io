@@ -1,6 +1,7 @@
 ---
 title: Initialization order of inheritance
-layout: post
+categories:
+  - Blog
 ---
 
 Inheritance is one of the most important features of Java. A subclass can inherit methods, attributes (member variables) from its parent class. When parent class and sub class both have static code block, constructing code block and default constructor, If we instantiate a subclass object, what is the order of execution of the code and the order of initialization of the subclass object? We all know that method of parent class can be overridden in subclass, but the constructor of parent class is not allowed to be overridden or inherited, what is meaning of the existence of the default constructor method of the parent class? 
