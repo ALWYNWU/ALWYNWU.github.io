@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SONDER
-email: yilong8@ualberta.ca
+email: "yilong8@ualberta.ca"
 description: Reord
 #twitter_username: username
 github_username: ALWYNWU
@@ -59,7 +59,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Software/LEGO/Video Games"
   links:
-    - label: "Website"
+    - label: "Weibo"
       icon: "fas fa-fw fa-link"
       url: "https://weibo.com/mrwuuuuu"
     - label: #"Twitter"
