@@ -29,7 +29,6 @@ public class Animal{
 }
 ```
 >Creat parent class Animal. Creat static member variables st1,st2 and temp to show the calling order.
-{: .notice--info}
 
 ```java
 public class Cat extends Animal{
@@ -62,37 +61,35 @@ public class Test{
 
 
 
-Set break point and single-step debugging
-
 ![](/assets/images/first.png)
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182205184.png" alt="image-20210611182205184" style="zoom:71%;" />
+![](/assets/images/2021_06_11/02.png)
 
 > The first priority is to load static members of parent class, including static code blocks and static memebr variables
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182319812.png" alt="image-20210611182319812" style="zoom:71%;" />
+![](/assets/images/2021_06_11/03.png)
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182336978.png" alt="image-20210611182336978" style="zoom:71%;" />
+![](/assets/images/2021_06_11/04.png)
 
 > Then load the static members of the subclasses
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182426294.png" alt="image-20210611182426294" style="zoom:71%;" />
+![](/assets/images/2021_06_11/05.png)
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182448698.png" alt="image-20210611182448698" style="zoom:71%;" />
+![](/assets/images/2021_06_11/06.png)
 
 > Back to main method for instantiation, but it doesn't load the constructor of subclass directly, it first goes to the parent class's unparametric constructor.
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611182616461.png" alt="image-20210611182616461" style="zoom:71%;" />
+![](/assets/images/2021_06_11/07.png)
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611184046434.png" alt="image-20210611184046434" style="zoom:71%;" />
+![](/assets/images/2021_06_11/08.png)
 
 > The top parent class in Java is object class, all classes are subclasses of object class. When enter the parent class, it will enter object class first, but it doesn't show up in IDEA, then back to parent class. First the member variables, then constructing code block, finally the constructor.
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611184127512.png" alt="image-20210611184127512" style="zoom:71%;" />
+![](/assets/images/2021_06_11/09.png)
 
 > Back to Cat subclass, first load constructing code block,  then constructor.
 
-<img src="/Users/yilong/Library/Application Support/typora-user-images/image-20210611184243029.png" alt="image-20210611184243029" style="zoom:71%;" />
+![](/assets/images/2021_06_11/10.png)
 
 > Finish object instantiation, print member property.
 
