@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "YILONG"
-  avatar : "/assets/images/01.jpeg"
+  avatar : "/assets/images/01.png"
   bio    : "Software/LEGO/Video Games"
   links:
     - label: "Weibo"
